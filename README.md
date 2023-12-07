@@ -22,8 +22,8 @@
 <h3 align="left"> Language and Tools: </h3>
 <p align="left"> 
   <a href= "https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original-wordmark.svg" target="blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original-wordmark.svg" alt="intellij" width="60" height="60"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original-wordmark.svg" alt="intellij" width="80" height="80"/>
           </a><a href= "https://github.com/devicons/devicon/blob/55609aa5bd817ff167afce0d965585c92040787a/icons/java/java-original-wordmark.svg" target="blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="intellij" width="60" height="60"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="intellij" width="80" height="80"/>
           </a>
 </p>
