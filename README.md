@@ -3,6 +3,7 @@
 <h3 align="center"> An animator that codes </h3>
 
 <h3 align="center"> Here's some of the programs that I've worked on: </h3>
+
 - [Average Rainfall] 
 (https://github.com/cdscholz/Programs/blob/master/src/Week_4/loopsActivities/Activity_8/AverageRainfall.java)
 
