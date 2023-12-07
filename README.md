@@ -20,8 +20,10 @@
 (https://github.com/cdscholz/Programs/blob/e131d16fe0736d3caeeb2b3695f8fccfc2d46802/src/Week_5/Activity_11/MethodsActivity.java)
 
 <h3 align="left"> Language and Tools: </h3>
-<p> align="left"> 
+<p align="left"> 
   <a href= "https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original-wordmark.svg" target="blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original-wordmark.svg" alt="intellij" width="40" height="40"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original-wordmark.svg" alt="intellij" width="60" height="60"/>
+          </a><a href= "https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original-wordmark.svg" target="blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="intellij" width="60" height="60"/>
           </a>
 </p>
