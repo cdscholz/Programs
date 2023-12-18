@@ -1,0 +1,4 @@
+<User Name>          <Password>           <Score>           <Player Character>   <Winning Percentage> 
+Cierra               dnfwe                    56                   jdawg           98.74
+bro                  defnw                    34                  junior           99.56
+george               fknwq                    21                   plank           34.21
