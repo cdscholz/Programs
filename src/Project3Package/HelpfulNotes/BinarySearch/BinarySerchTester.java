@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinarySerchTester {
-    public static void main(String[] args) {
+    /* public static void main(String[] args) {
 
         Scanner console = new Scanner(System.in);
         BinarySearchDemo = new BinarySearchDemo();
@@ -68,7 +68,7 @@ public class BinarySerchTester {
 
 
 
-
+*/
 
 
 

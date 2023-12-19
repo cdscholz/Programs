@@ -1,5 +1,6 @@
 package Project3Package.Project3;
 
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -12,7 +13,7 @@ public class PokemonBattle {
     //Instance of the Random class
     Random random = new Random();
     //Instance of the Pokédex class
-
+    ArrayList<String> Pokedex = new ArrayList<String>();
 
     //*************************************** DEFAULT CONSTRUCTOR ***************************************
 

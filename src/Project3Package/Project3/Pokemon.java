@@ -67,9 +67,9 @@ public class Pokemon {
     //getPokemonInfo()
     //      --> returns name, hitPoints, speed
     public int getPokemonInfo(){
-        return String name;
+        //return String name;
         return hitPoints;
-        return speed;
+        //return speed;
 
     }
 
