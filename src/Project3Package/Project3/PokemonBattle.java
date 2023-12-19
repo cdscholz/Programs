@@ -28,20 +28,27 @@ public class PokemonBattle {
     public void addPokemonToGame(String name, int hitPoints, int speed, String pokemon, Pokemon pokemon){
         //      --> allows player to add "any number" Pokémon to the game
         //              --> player prompted to enter Pokémon name, hitPoints, speed to create instance of Pokémon
-        System.out.println("Enter new Pokemon name\n");
-        name = keyboard.nextLine();
+        while (true) {
+            System.out.println("Add a Pokemon\n--------------------------\nEnter new Pokemon name\nOr press q to quit\n--------------------------\n");
+            name = keyboard.nextLine();
+            if (name.equals("q")){
+                break;
+            }
 
-        System.out.printf("Enter %d hit points:\n", name);
-        hitPoints = Integer.parseInt(keyboard.nextLine());
+            System.out.printf("Enter %d hit points:\n", name);
+            hitPoints = Integer.parseInt(keyboard.nextLine());
 
-        System.out.printf("Enter %d speed:\n", name);
-        speed = Integer.parseInt(keyboard.nextLine());
+            System.out.printf("Enter %d speed:\n", name);
+            speed = Integer.parseInt(keyboard.nextLine());
 
-        //              --> player prompted to enter "any number" of moves with name and power, each added to Pokédex's pokeList
-        System.out.printf("Enter a %d move\n", name);
-        //pokemon = keyboard.nextLine();
-        //Pokedex.add(pokemon);
+            Pokemon pokemon = new Pokemon(name, hitPoints, speed);
+            //record.addpokemon(pokemon);
 
+            //              --> player prompted to enter "any number" of moves with name and power, each added to Pokédex's pokeList
+            System.out.printf("--------------------------\nEnter a %d move\nOr press q to quit\n--------------------------\n", name);
+            //pokemon = keyboard.nextLine();
+            //Pokedex.add(pokemon);
+        }
 
 
     }
