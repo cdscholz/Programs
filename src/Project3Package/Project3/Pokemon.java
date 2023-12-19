@@ -54,7 +54,8 @@ public class Pokemon {
     }
 
     //setSpeed()
-    public void setSpeed(int speed){
+    public void setSpeed(int speed)
+    {
         this.speed = speed;
     }
 
@@ -66,10 +67,10 @@ public class Pokemon {
 
     //getPokemonInfo()
     //      --> returns name, hitPoints, speed
-    public int getPokemonInfo(){
-        //return String name;
+    public int getPokemonInfo(String name, int hitPoints, int speed){
+        return name;
         return hitPoints;
-        //return speed;
+        return speed;
 
     }
 
