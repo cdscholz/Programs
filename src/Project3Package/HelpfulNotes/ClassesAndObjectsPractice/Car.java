@@ -24,6 +24,7 @@ public class Car {
     */
 
     public Car() {
+        /*
         //"this" keyword
         this.color = "Not Known";
         this.model = "Not Known";
@@ -32,11 +33,12 @@ public class Car {
         this.miles = 0;
         this.years = 0;
         this.isElectric = true;
+         */
     }
 
     //Parameterized constructors
     //Overloading Constructors: MUST have the Same Name, Different Parameter Lists
-    //Overloading Constructors: CAN have different access modifiers
+    //Overloading Constructors: CAN have different access modifiers, Different return types
 
     //With all parameters
     public Car(String Model, String Make, String Color, int Seats, int Miles, int Year, boolean Electric) {
@@ -157,9 +159,17 @@ public class Car {
     }
 
 
-
-
-
+    //If older car let user print out message about why the car is better than newer models
+    public String honkIfOldCar(String message){
+        if(years < 1980){
+            System.out.println("Honk! Honk! This is an old car!!!!!");
+            return message;
+        }else{
+            //System.out.println("This car is not old enough to Honk!!\n Beep Beep!!!");
+            message = "This car is not old enough to Honk!!\n Beep Beep!!!";
+            return message;
+        }
+    }
 
     public void honkIfOldCar() {
         //If the year is < 1980
