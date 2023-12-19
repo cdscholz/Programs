@@ -13,7 +13,7 @@ public class PokemonBattle {
     //Instance of the Random class
     Random random = new Random();
     //Instance of the Pokédex class
-    ArrayList<String> Pokedex = new ArrayList<String>();
+    ArrayList<Pokemon> Pokedex = new ArrayList<>();
 
     //*************************************** DEFAULT CONSTRUCTOR ***************************************
 
@@ -37,8 +37,8 @@ public class PokemonBattle {
     //              --> print each Pokémon's info
     //                      --> number each Pokémon for user to select by number
     //              --> get each Pokémon's movelist and print moveName and movePower
-    public void displayPokeList(){
-
+    public ArrayList<Pokemon> displayPokeList(){
+        return Pokedex;
     }
 
     //selectPlayerPokemon()

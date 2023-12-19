@@ -1,5 +1,7 @@
 package Project3Package.Project3;
 
+import java.util.ArrayList;
+
 public class Pokemon {
 
 
@@ -12,6 +14,7 @@ public class Pokemon {
     //speed
     private int speed;
     //ArrayList "movesList" that holds a list of the Pokémon's moves
+    ArrayList<Move> movesList = new ArrayList<>();
 
 
     //*************************************** CONSTRUCTOR ***************************************
@@ -27,8 +30,8 @@ public class Pokemon {
 
     //addMove()
     //      --> adds a "move" to movesList
-    public void addMove(){
-
+    public void addMove(Move move){
+        movesList.add(move);
     }
 
     //setHitPoints()
