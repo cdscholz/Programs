@@ -3,6 +3,7 @@ package Project3Package.Project3;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+import Project3Package.Project3.Pokemon;
 
 public class PokemonBattle {
 
@@ -24,21 +25,25 @@ public class PokemonBattle {
     //*************************************** METHODS ***************************************
 
     //addPokemonToGame()
-    //      --> allows player to add "any number" Pokémon to the game
-    //              --> player prompted to enter Pokémon name, hitPoints, speed to create instance of Pokémon
-    //              --> player prompted to enter "any number" of moves with name and power, each added to Pokédex's pokeList
-    public void addPokemonToGame(){
+    public void addPokemonToGame(String name){
+        //      --> allows player to add "any number" Pokémon to the game
+        //              --> player prompted to enter Pokémon name, hitPoints, speed to create instance of Pokémon
+        //              --> player prompted to enter "any number" of moves with name and power, each added to Pokédex's pokeList
+        System.out.println("Enter new Pokemon name\n");
+        name = keyboard.nextLine();
+
+        System.out.printf("Enter %d hit points:\n", name);
 
     }
 
     //displayPokeList()
-    //      --> use Pokedex instance to getPokeList
-    //      --> for each Pokémon in the list
-    //              --> print each Pokémon's info
-    //                      --> number each Pokémon for user to select by number
-    //              --> get each Pokémon's movelist and print moveName and movePower
     public ArrayList<Pokemon> displayPokeList(){
+        //      --> use Pokedex instance to getPokeList
         return Pokedex;
+        //      --> for each Pokémon in the list
+        //              --> print each Pokémon's info
+        //                      --> number each Pokémon for user to select by number
+        //              --> get each Pokémon's movelist and print moveName and movePower
     }
 
     //selectPlayerPokemon()
