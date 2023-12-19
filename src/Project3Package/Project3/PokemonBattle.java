@@ -8,9 +8,9 @@ public class PokemonBattle {
     //*************************************** INSTANCE VARIABLES (ALL PRIVATE) ***************************************
 
     //Instance of the Scanner class
-
+    Scanner keyboard = new Scanner(System.in);
     //Instance of the Random class
-
+    Random random = new Random();
     //Instance of the Pokédex class
 
 
@@ -26,6 +26,9 @@ public class PokemonBattle {
     //      --> allows player to add "any number" Pokémon to the game
     //              --> player prompted to enter Pokémon name, hitPoints, speed to create instance of Pokémon
     //              --> player prompted to enter "any number" of moves with name and power, each added to Pokédex's pokeList
+    public void addPokemonToGame(){
+
+    }
 
     //displayPokeList()
     //      --> use Pokedex instance to getPokeList
@@ -33,16 +36,25 @@ public class PokemonBattle {
     //              --> print each Pokémon's info
     //                      --> number each Pokémon for user to select by number
     //              --> get each Pokémon's movelist and print moveName and movePower
+    public void displayPokeList(){
+
+    }
 
     //selectPlayerPokemon()
     //      --> Pokedex's pokeList is displayed
     //      --> player selects a Pokémon by number
     //              --> calls Pokedex's selectPokemon() method
     //      --? returns playerPokemon
+    public void selectPlayerPokemon(){
+
+    }
 
     //selectcomputerPokemon()
     //      --> calls Pokedex's getRandomPokemon()
     //      --> returns computerPokemon
+    public void selectComputerPokemon(){
+
+    }
 
     //battlePokemon()
     //      --> takes 2 parameters: playerPokemon and computerPokemon
@@ -51,6 +63,9 @@ public class PokemonBattle {
     //              --> you can modify to work how you want
     //              --> does NOT have to be 3 rounds
     //              --> as long as there is a battle and a winner
+    public void battlePokemon(){
+
+    }
 
 
 

@@ -15,7 +15,8 @@ public class Move {
     //Two parameters
     //      --> moveName, movePower
     public Move (String moveName, int movePower){
-
+        this.moveName = moveName;
+        this.movePower = movePower;
     }
 
     //*************************************** GETTERS FOR INSTANCE VARIABLES ***************************************
