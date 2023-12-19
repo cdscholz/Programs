@@ -10,11 +10,11 @@ public class PokemonBattle {
     //*************************************** INSTANCE VARIABLES (ALL PRIVATE) ***************************************
 
     //Instance of the Scanner class
-    Scanner keyboard = new Scanner(System.in);
+    private Scanner keyboard = new Scanner(System.in);
     //Instance of the Random class
-    Random random = new Random();
+    private Random random = new Random();
     //Instance of the Pokédex class
-    ArrayList<Pokemon> Pokedex = new ArrayList<>();
+    private ArrayList<Pokemon> Pokedex = new ArrayList<>();
 
     //*************************************** DEFAULT CONSTRUCTOR ***************************************
 

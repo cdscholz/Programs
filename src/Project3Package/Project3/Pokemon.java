@@ -64,8 +64,8 @@ public class Pokemon {
 
     //getMovesList()
     //      --> returns movesList (if you need to access the whole list in another class)
-    public void getMovesList(){
-
+    public ArrayList<Move> getMovesList(){
+        return movesList;
     }
 
     //getPokemonInfo()
@@ -79,8 +79,13 @@ public class Pokemon {
 
     //getMoveByName(String moveName)
     //      --> returns a Move if there is one in the movesList with a name that equals the moveName value
-    public void getMoveByName(String moveName){
-
+    public void getMoveByName(String Move, String moveName){
+        if (moveName == Move) {
+            return movesList.get(moveName);
+        } else
+        {
+            System.out.println("There is no move with that name.");
+        }
     }
 
 
