@@ -25,7 +25,7 @@ public class PokemonBattle {
     //*************************************** METHODS ***************************************
 
     //addPokemonToGame()
-    public void addPokemonToGame(String name, int hitPoints, int speed, String pokemon, Pokemon pokemon){
+    public void addPokemonToGame(String name, int hitPoints, int speed, Pokemon pokemon){
         //      --> allows player to add "any number" Pokémon to the game
         //              --> player prompted to enter Pokémon name, hitPoints, speed to create instance of Pokémon
         while (true) {
@@ -41,13 +41,15 @@ public class PokemonBattle {
             System.out.printf("Enter %d speed:\n", name);
             speed = Integer.parseInt(keyboard.nextLine());
 
-            Pokemon pokemon = new Pokemon(name, hitPoints, speed);
-            //record.addpokemon(pokemon);
+            pokemon = new Pokemon(name, hitPoints, speed);
+            Pokedex.add(pokemon);
 
+            while (true) {
             //              --> player prompted to enter "any number" of moves with name and power, each added to Pokédex's pokeList
             System.out.printf("--------------------------\nEnter a %d move\nOr press q to quit\n--------------------------\n", name);
             //pokemon = keyboard.nextLine();
             //Pokedex.add(pokemon);
+            }
         }
 
 
